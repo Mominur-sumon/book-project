@@ -7,7 +7,7 @@
     @csrf
     <div class="form-group">
       <label for="Title">Title</label>
-      <input type="text" class="form-control" name="title" value="{{ old('title', $book->title)}}" placeholder="Enter Title" >
+      <input type="text" class="form-control" name="title" value="{{ old('title')}}" placeholder="Enter Title" >
       <div class="">{{ $errors->first('title') }}</div>
     </div>
 
